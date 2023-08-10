@@ -7,6 +7,31 @@ editor: visual
 ## create vectors
 
 ```{r}
-rain <- c(3,5,10.1,6)
+rain <- c(3,5, 10.1, 6)
 rain_scaled <- 5* rain
+```
+
+## Create matrices
+
+```{r}
+my_values <- seq(from = 1, to = 10)
+```
+
+```{r}
+my_matrix <- matrix(data = my_values, nrow = 2, ncol = 5, byrow = TRUE)
+```
+
+```{r}
+my_matrix2 <- matrix(data = my_values, nrow = 3, ncol = 4, byrow = TRUE)
+```
+
+```{r}
+matrix_a <- matrix(data = seq(from =2, to =5, length = 10), 
+                   nrow = 2, 
+                   ncol = 5, 
+                   byrow = TRUE)
+```
+
+```{r}
+my_matrix + matrix_a
 ```
