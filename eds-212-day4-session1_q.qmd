@@ -1,0 +1,12 @@
+---
+title: "eds-day4-session1-q"
+format: html
+editor: visual
+---
+
+## create vectors
+
+```{r}
+rain <- c(3,5,10.1,6)
+rain_scaled <- 5* rain
+```
